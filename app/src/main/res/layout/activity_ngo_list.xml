@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ngolist"
+    android:orientation="vertical"
+    android:weightSum="6"
+    android:background="@drawable/bg_login">
+    <TextView
+        android:background="@drawable/et_bg"
+        android:layout_weight="1"
+        android:textSize="40sp"
+        android:text="NGO's Detail"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:textColor="@color/login_form_details_medium"
+        android:background="@drawable/et_bg"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="There are multiple ngo's working in India for a better change. They collect remaining  food from hotel's,colleges mess and houses also and provide it to needy people so here are some name of the ngo's given below"
+        />
+    <Spinner
+        android:textColor="@color/login_form_details_medium"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/bg_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_marginTop="30sp"
+        android:entries="@array/ngo">
+
+    </Spinner>
+
+</LinearLayout>

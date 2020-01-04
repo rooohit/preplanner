@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.androidapp.androidproject">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".register" />
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".RecordListActivity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".farewell" />
+        <activity android:name=".kitty" />
+        <activity android:name=".anniversey" />
+        <activity android:name=".birthday" />
+        <activity android:name=".santhimandiram" />
+        <activity android:name=".rotibank" />
+        <activity android:name=".nofoodwaste" />
+        <activity android:name=".ngolist" />
+        <activity android:name=".happyfridge" />
+        <activity android:name=".feedingindia" />
+        <activity android:name=".beggar" />
+        <activity android:name=".m4" />
+        <activity android:name=".Event_planner" />
+        <activity android:name=".Sos" />
+        <activity android:name=".FindPlace" />
+        <activity android:name=".MainActivity2" />
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="DuplicateActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+    </application>
+
+</manifest>

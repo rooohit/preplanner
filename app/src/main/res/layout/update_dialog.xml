@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_login"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:scrollbarSize="4dp">
+
+    <ImageView
+
+        android:id="@+id/imageViewRecord"
+        android:layout_width="155dp"
+        android:layout_height="133dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <EditText
+        android:layout_marginTop="20sp"
+        android:background="@drawable/et_bg"
+        android:id="@+id/edtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="Grom / Bride"
+        android:textColor="#EC407A"
+        android:textColorHint="@color/login_form_details_medium"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:backgroundTint="#EC407A"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/et_bg"
+        android:id="@+id/edtDestination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="Destination"
+        android:textColor="@color/login_form_details_medium"
+        android:textColorHint="@color/login_form_details_medium"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:layout_marginTop="20sp"
+        android:id="@+id/edtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EC407A"
+        android:ems="15"
+        android:hint="Date"
+        android:textColor="@color/login_form_details_medium"
+        android:textColorHint="@color/login_form_details_medium"
+
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update" />
+
+
+</LinearLayout>

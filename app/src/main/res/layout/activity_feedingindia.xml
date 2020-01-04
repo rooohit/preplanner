@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nofoodwaste"
+    android:orientation="vertical"
+    android:weightSum="8"
+    android:background="@drawable/bg_login">
+    <TextView
+        android:textColor="@color/login_form_details_medium"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Feeding India"
+        android:layout_marginTop="10dp"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US"
+        android:background="@drawable/et_bg"
+        android:gravity="center"
+        android:textSize="25sp" />
+    <TextView
+        android:textColor="@color/login_form_details_medium"
+        android:layout_marginTop="10dp"
+        android:layout_weight="2"
+        android:text="@string/feeding"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_bg"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:background="@drawable/et_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOURS OF OPERATION"
+        android:gravity="center"/>
+    <TextView
+        android:textColor="@color/login_form_details_medium"
+        android:layout_weight="2"
+        android:layout_marginTop="10dp"
+        android:text="@string/no1"
+        android:background="@drawable/et_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:drawableLeft="@drawable/ic_launcher_foreground1"
+        android:layout_marginTop="10dp"
+        android:onClick="event1"
+        android:id="@+id/bt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:drawablePadding="-100dp"
+        android:textColor="@color/login_form_details_medium"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/btn_bg"/>
+    <TextView
+        android:drawablePadding="-30dp"
+        android:layout_marginTop="10dp"
+        android:onClick="event2"
+        android:text="feedingindia.in@gmail.com"
+        android:textSize="20sp"
+        android:textColor="@color/login_form_details_medium"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/text4"
+        android:background="@drawable/btn_bg"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:drawableLeft="@drawable/ic_launcher_foreground2"/>
+</LinearLayout>

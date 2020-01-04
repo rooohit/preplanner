@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">PrePlanner</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">UserName</string>
+    <string name="nav_header_subtitle">user@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_search_history">Search history</string>
+    <string name="action_recent_location">Recent location</string>
+    <string name="action_recent_exit">Exit</string>
+
+    <string name="menu_setting">Setting</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_rate_us">Rate Us</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_logout">Logout</string>
+
+
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="phone">phone</string>
+
+
+    <string name="menu_contact">Contact Us</string>
+    <array name="visitPlaces">
+        <item>Cold Places</item>
+        <item>Hot Places</item>
+        <item>Deserts</item>
+        <item>India Safari</item>
+        <item>Devotional Places</item>
+        <item>Ancient Places</item>
+    </array>
+    <string-array name="ngo">
+        <item>Click Me</item>
+        <item> NoFoodWaste</item>
+        <item>Feeding India</item>
+        <item>Happy Fridge</item>
+        <item>Roti Bank by Dabbawalas</item>
+        <item>Santhimandiram</item>
+    </string-array>
+    <string name="nofoodwaste">
+
+        No Food Waste is a mission to end food waste and hunger to make the “World Hunger Free”. We recover surplus food from weddings, parties and functions and donate it to needy and hungry people.
+
+Dedicated Food Recovery Units including Helpline Number, Food Recovery Vehicles, Vessels, Mobile Application and Volunteers are involved for effective process execution.
+
+
+
+    </string>
+    <string name="no1">
+        <br>
+ALL DAYS: 9:00am to 10:00pm \n</br>
+<br>
+Please submit request through call for food donation \n</br>
+    </string>
+    <string name="feeding">Feeding India runs the largest youth run network towards solving hunger and food waste. More than 25,000 volunteers also called Hunger Heroes collect and donate food in 75+ cities. Hunger Heroes also take up the task of spreading awareness and bringing on-ground change in the community.</string>
+    <string name="happyfridge">Happy fridge is a corporate food service solution that provides access to delicious healthy food at any time, changing the way people eat at work.
+
+Through our smart-tech fridge we help you create a positive impact on your company from day one.</string>
+    <string name="roti">Mumbai Roti Bank is a non-profit, food rescue organisation that bridges the gap between hunger and excess food.we aim to eliminate hunger, malnutrition and food wastage We pick up excess food from weddings, events, hotels and deliver it to thousands of hungry people who live in slums. We also deliver daily meals to kids of Drona Foundation, Dharavi. The NGO has a dedicated helpline where we can be reached and our dedicated vans pick up the excess food and redistribute it promptly, thus ensuring that the quality of the food remains intact.
+
+</string>
+    <string name="santhi">Santhi Mandiram, a charitable institution based at Nedumangad in Thiruvananthapuram, Kerala came into existence on 19 th January 2003. It is a non-political and secular organization started with an aim to rehabilitate the lunatics and the homeless who have nowhere to go ,and roaming the streets of Kerala without food or shelter. On rehabilitation they are given initial treatment and counseling and many of them are able to remember their names and the circumstances which forced them to flee their homes.</string>
+
+</resources>

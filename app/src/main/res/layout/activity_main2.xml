@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".MainActivity2">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:background="@color/colorPrimaryDark"
+    android:layout_weight="1.5"
+    android:text="Trip Planner"
+    android:textStyle="bold"
+    android:textSize="35sp"
+    android:gravity="center"
+    android:typeface="serif"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/btn_bg"
+        android:onClick="event"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:text="Find Place TO Visit"
+        android:textSize="20sp"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="event"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="10dp"
+        android:text="Hotel's"
+        android:textSize="20sp"
+        android:typeface="normal"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="event"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="10dp"
+        android:text="Help for Packing luggage"
+        android:textSize="20sp"
+        android:typeface="normal"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:onClick="event"
+        android:layout_weight="1"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="10dp"
+        android:text="Order Food"
+        android:textSize="20sp"
+        android:typeface="normal"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="event"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="10dp"
+        android:text="SoS"
+        android:textSize="20sp"
+        android:typeface="normal"
+        android:gravity="center"/>
+</LinearLayout>

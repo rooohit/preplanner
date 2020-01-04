@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Welcome"
+        android:textSize="45sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingTop="35dp"
+        android:layout_weight="1.6">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.4"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"/>
+        <Button
+            android:onClick="action"
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Wedding Reminder "
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:drawableTop="@drawable/wedding"
+            android:gravity="center"
+            android:typeface="sans"
+            android:background="@android:color/transparent"
+            android:layout_weight="1.2"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"/>
+        <Button
+            android:onClick="action"
+            android:layout_width="0dp"
+            android:id="@+id/button2"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Event Planner"
+            android:drawableTop="@drawable/event"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:typeface="sans"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.4"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"/>
+        <Button
+            android:onClick="action"
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:text="Trip Planner"
+            android:drawableTop="@drawable/trip"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:typeface="sans"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"/>
+        <Button
+            android:id="@+id/button4"
+            android:onClick="action"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:text="Food Share "
+            android:gravity="center"
+            android:drawableTop="@drawable/food"
+            android:background="@android:color/transparent"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:typeface="sans"/>
+
+    </LinearLayout>
+
+</LinearLayout>

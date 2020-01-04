@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
+    android:weightSum="6"
+    tools:context=".m4"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:src="@drawable/vol" />
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textColor="@color/login_form_details_medium"
+            android:onClick="event"
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="NGO's List"
+            android:background="@drawable/btn_bg"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:gravity="center"/>
+        <Button
+            android:onClick="event"
+            android:textColor="@color/login_form_details_medium"
+            android:background="@drawable/btn_bg"
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="Begger Comunnity"
+            android:textStyle="italic"
+            android:textSize="30sp"/>
+    </LinearLayout>
+</LinearLayout>
